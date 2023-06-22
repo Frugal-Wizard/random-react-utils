@@ -1,0 +1,32 @@
+{
+  "name": "@frugalwizard/random-react-utils",
+  "version": "0.1.0",
+  "description": "Random React Utils",
+  "license": "MIT",
+  "author": "Frugal-Wizard",
+  "repository": "https://github.com/Frugal-Wizard/random-react-utils.git",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "compile": "tsc -p src",
+    "build": "run-s clean compile",
+    "prepare": "npm run build",
+    "lint": "eslint . --ext .ts,.tsx",
+    "typecheck": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "@types/react": "^18.2.13",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/parser": "^5.60.0",
+    "eslint": "^8.43.0",
+    "eslint-config-react-app": "^7.0.1",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^5.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
