@@ -1,7 +1,9 @@
 export { default as abortable        } from './abortable';
 export { default as asynced          } from './asynced';
+export { default as getSingleton     } from './getSingleton';
 export { default as Nested           } from './Nested';
 export { default as noop             } from './noop';
+export { default as onClickOutside   } from './onClickOutside';
 export { default as preventDefault   } from './preventDefault';
 export { default as setSingleton     } from './setSingleton';
 export { default as updateSingleton  } from './updateSingleton';
@@ -11,5 +13,6 @@ export { default as useCursor        } from './useCursor';
 export { default as useFunctionRef   } from './useFunctionRef';
 export { default as useLoadingFlag   } from './useLoadingFlag';
 export { default as useMutable       } from './useMutable';
+export { default as useResizeDetect  } from './useResizeDetect';
 export { default as useSingleton     } from './useSingleton';
 export { default as useUnmountSignal } from './useUnmountSignal';

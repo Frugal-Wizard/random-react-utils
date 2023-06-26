@@ -28,6 +28,10 @@ Use at your own discretion and don't rely on anything staying backward compatibl
 
   > An empty function. Useful when such a function is required and it being a stable value is preferable.
 
+* [`onClickOutside`](docs/onClickOutside.md)
+
+  > A helper for setting up listener to clicks that happen outside an element.
+
 * [`preventDefault`](docs/preventDefault.md)
 
   > A function that calls `preventDefault` on its first argument. Useful for some use cases with event handlers.
@@ -55,6 +59,14 @@ Use at your own discretion and don't rely on anything staying backward compatibl
 * [`useMutable`](docs/useMutable.md)
 
   > A hook for handling a mutable value. Useful for keeping track of data during the component lifecycle that does not need to be part of the component state.
+
+* [`useResizeDetect`](docs/useResizeDetect.md)
+
+  > A flag which indicates when the viewport is view resized.
+
+* [`useSingleton`](docs/useSingleton.md)
+
+  > An alternative to React's `useContext`.
 
 * [`useUnmountSignal`](docs/useUnmountSignal.md)
 
